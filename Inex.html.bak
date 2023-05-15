@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SESEOFFICE</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#introduction">Introduction</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#service">Service</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+	<p></p>
+    <div class="search">
+      <input type="text" placeholder="Search">
+      <button><img src="search-icon.png" alt="Search"></button>
+    </div>
+    <main>
+      <section id="introduction">
+        <h1>Welcome to SESEOFFICE!</h1>
+        <p>Monitoring and controlling connected equipment in the building. 
+The alarm should be a popup in operator workstation for any critical faults in the system. 
+Any types of equipment on, off status and alarm should be logged or stored in PC to retrieve later.</p>
+<p>Schedule the equipment to on and off automatically by preset time. </p>
+<p>User interface graphics should be available to visualise the field equipment to monitor for BMS operator easily. </p>
+      </section>
+      
+      <section id="products">
+        <h2>Our Products</h2>
+        <ul>
+          <li> BMS(HoneyWell)</li>
+          <li> UPS (FEFA-Power)</li>
+          <li>Isolated Power Panels</li>
+		  <li>Valve Pattinaroli</li>
+		  <li>Nurse Call (Schrack Seconet)</li>  
+		  <li>Solar Energy Solution</li>
+		  <li>etc..</li>
+        </ul>
+      </section>
+      
+      <section id="projects">
+        <h2>Our Projects</h2>
+        <ul>
+          <li>Project 1</li>
+          <li>Project 2</li>
+          <li>Project 3</li>
+        </ul>
+      </section>
+      
+      <section id="service">
+        <h2>Our Service</h2>
+        <ul>
+          <li>Service 1</li>
+          <li>Service 2</li>
+          <li>Service 3</li>
+        </ul>
+      </section>
+      
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Fill out the form below to get in touch:</p>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name"><br>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email"><br>
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message"></textarea><br>
+
+          <input type="submit" value="Submit">
+        </form>
+      </section>
+    </main>
+    
+    <footer>
+      <p>Copyright &copy; JM@Technical 2023.
+    </footer>
+  </body>
+</html>
